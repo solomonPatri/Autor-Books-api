@@ -17,7 +17,7 @@ namespace Autor_Books_Api.Books.Model
         [Column("name")]
         public string Name { get; set; }
 
-
+        
         public int AutorId { get; set; }
 
         [Required]
